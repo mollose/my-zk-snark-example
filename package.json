@@ -1,0 +1,17 @@
+{
+  "name": "my-zk-snark-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generator": "node ./src/generate_keys.js",
+    "prover": "node ./src/generate_proof.js",
+    "verifier": "node ./src/verify_proof.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "snarkjs": "^0.7.3"
+  }
+}
